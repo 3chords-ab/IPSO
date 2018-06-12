@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Ipso Classification & Control AB</title>
+<!-- TemplateEndEditable -->
+<style type="text/css">
+  @import url("/assets/stylesheets/all.css");
+</style>
+<script type="text/javascript" language="javascript" src="/assets/javascripts/jquery-1.7.2.js"></script>
+<script type="text/javascript" language="javascript" src="/assets/javascripts/language.js"></script>
+<script type="text/javascript" language="javascript" src="/assets/javascripts/functions.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="Sub Navigation" type="boolean" value="false" -->
+<!-- TemplateParam name="Page Header" type="boolean" value="true" -->
+</head>
+<body>
+<div class="gui_content_holder">
+
+<div class="banner">
+  <ul class="top_navigation left">
+    <li><a href="/home/index.html"><script>get_i18n('nav_home',lang)</script></a></li>
+    <li><a href="/about/index.html"><script>get_i18n('nav_about',lang)</script></a></li>
+    <li><a href="/system/iris.html"><script>get_i18n('nav_system',lang)</script></a></li>
+    <li><a href="/references/index.html"><script>get_i18n('nav_references',lang)</script></a></li>
+    <li><a href="/contact/index.html"><script>get_i18n('nav_contact',lang)</script></a></li>
+  </ul>
+  <div class="logo_holder right">
+    <img src="/assets/images/icc_logo.gif" width="103" height="96" />
+  </div>
+  <div class="language_bar">
+    <a href="javascript:changeLanguage('sv_SE');" title="På svenska" ><img src="../assets/images/sv_SE.png" width="16" height="11" border="0"/></a>&nbsp;
+    <a href="javascript:changeLanguage('en_US');" title="In english"><img src="../assets/images/en_US.png" width="16" height="11" border="0" /></a>
+  </div>
+  <br class="clear" />
+</div><!-- /banner -->
+
+<div class="visualisation_holder">
+<!-- TemplateBeginEditable name="Visualisation" --><img src="/assets/images/index.jpg" width="960" height="230" /><!-- TemplateEndEditable -->
+</div><!-- /visualisation_holder -->
+
+<div class="pageheader">
+<!-- TemplateBeginIf cond="_document['Page Header']" -->
+<h1><!-- TemplateBeginEditable name="Page Header" -->pageheader<!-- TemplateEndEditable --></h1>
+<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="_document['Sub Navigation']" -->
+  <ul class="sub_navigation">
+    <li><a href="/system/iris.html"><script>get_i18n('nav_system_iris',lang)</script></a></li>
+    <li><a href="/system/wbts.html"><script>get_i18n('nav_system_wbt',lang)</script></a></li>
+    <li><a href="/system/foresea.html"><script>get_i18n('nav_system_foresea',lang)</script></a></li>
+    <li><a href="/system/sirs.html"><script>get_i18n('nav_system_sirs',lang)</script></a></li>
+    <li><a href="/system/pris.html"><script>get_i18n('nav_system_pris',lang)</script></a></li>
+  </ul>
+<!-- TemplateEndIf -->
+</div><!-- /pageheader -->
+
+<div class="page_content_holder">
+<!-- TemplateBeginEditable name="Page Content" -->
+page_content_holder
+<!-- TemplateEndEditable -->
+</div><!-- /page_content_holder -->
+
+</div><!-- /gui_content_holder -->
+</body>
+</html>
